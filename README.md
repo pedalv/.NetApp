@@ -1,6 +1,11 @@
 # .NetApp
 .Net/C# projects to build competence.
 
+# Fetch all .NetApp projects
+```bash
+git clone https://github.com/pedalv/.NetApp.git
+```
+
 # Project 2: C++Hello
 - [Getting Started with C++ in Visual Studio](https://msdn.microsoft.com/en-us/library/jj620919.aspx)
 - C++Hello project is located on [https://github.com/pedalv/.NetApp/tree/master/C++Hello](https://github.com/pedalv/.NetApp/tree/master/C++Hello)
