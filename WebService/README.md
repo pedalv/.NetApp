@@ -19,7 +19,6 @@
 
 # How Does «Web services architecture» Work? 
 [![Web services architecture](https://en.wikipedia.org/wiki/Web_service#/media/File:Webservices.png)](https://en.wikipedia.org/wiki/Web_service#/media/File:Webservices.png)
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 - The service provider sends a WSDL file to UDDI. 
 - The service requester contacts UDDI to find out who is the provider for the data it needs, and then it contacts the service provider using the SOAP protocol. 
 - The service provider validates the service request and sends structured data in an XML file, using the SOAP protocol. 
@@ -111,7 +110,7 @@
 - can be "low" (also "loose" or "weak") or "high" (alse "tight" and "strong")
 - low coupling correlates with high cohesion.
 - low coupling is often a sign of a well structured computer system, good design, sepports the general gools of high rability and maintainability.
-- [![Types of coupling](https://en.wikipedia.org/wiki/File:Coupling_sketches_cropped_1.svg)](https://en.wikipedia.org/wiki/File:Coupling_sketches_cropped_1.svg)
+- [![Types of coupling](https://upload.wikimedia.org/wikipedia/commons/9/9c/Coupling_sketches_cropped_1.svg)](https://upload.wikimedia.org/wikipedia/commons/9/9c/Coupling_sketches_cropped_1.svg)
 
 ## cohesion
 - refers to the degree to which the elements inside a module belong together.
