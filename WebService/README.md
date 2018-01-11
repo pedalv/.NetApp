@@ -18,7 +18,7 @@
 - XML is the basis for Web services
 
 # How Does «Web services architecture» Work? 
-[![Web services architecture](https://en.wikipedia.org/wiki/Web_service#/media/File:Webservices.png)](https://en.wikipedia.org/wiki/Web_service#/media/File:Webservices.png)
+![Web services architecture](https://en.wikipedia.org/wiki/Web_service#/media/File:Webservices.png)
 - The service provider sends a WSDL file to UDDI. 
 - The service requester contacts UDDI to find out who is the provider for the data it needs, and then it contacts the service provider using the SOAP protocol. 
 - The service provider validates the service request and sends structured data in an XML file, using the SOAP protocol. 
