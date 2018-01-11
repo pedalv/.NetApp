@@ -65,7 +65,7 @@
 - In 2006, Sun released JSR 224, JAX-WS 2.0 - SOAP, XML
 - In 2008, Sun introduced JSR 311 -> JAX-RS - Restful, JSON
 - to 2013, Sun improved with the realise of JSR 339 -> JAX-RS version 2.0
-- from 2013, Apache CXF build and develop services using frontend programming APIs, like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.
+- in 2013, Apache CXF build and develop services using frontend programming APIs, like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.
 
 # SOAP can be implemented using technologies
 - Java Busines Integration (JBI)-> services written in Java running on Java EE platforms
@@ -101,10 +101,10 @@
 - is transactions, queues provided by messag-oriented middleware (MOM), and interoperability standards
 - Loose coupling is the opposite of tight coupling.
 
-## messag-oriented middleware (MOM)
+## Message-oriented middleware (MOM)
 - (+) Store (buffer), router, or transform messages, adding and administrativ interface (monitor and tune performance)
 
-## coupling
+## Coupling
 - refers to the interdepencies between modules.
 - is the degree of interdependence between software modules, a measure of how closely connected two routines or modules are, the strength of the relationships between modules.
 - can be "low" (also "loose" or "weak") or "high" (alse "tight" and "strong")
@@ -112,13 +112,13 @@
 - low coupling is often a sign of a well structured computer system, good design, sepports the general gools of high rability and maintainability.
 - ![Types of coupling](https://github.com/pedalv/.NetApp/blob/master/WebService/Coupling_sketches_cropped_1.svg)
 					   
-## cohesion
+## Cohesion
 - refers to the degree to which the elements inside a module belong together.
 - describe how related function within a single module are.
 - hight cohesion -> Disable because software including robustnes, reliability, reusability and understanbility.
 - low cohesion -> Problems because is difficulty to maintain, test, reuse, even understood.
 
-## coupling and cohesion
+## Coupling and Cohesion
 - Software quality metrics of coupling and cohesion
 
 ## Connascense
