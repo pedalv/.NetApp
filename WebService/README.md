@@ -159,10 +159,10 @@ A SOAP message is an ordinary XML document containing the following elements:
 
 | Sub Element | Description |
 | --------------- | --------------- |
-| <faultcode> | A code for identifying the fault |
-| <faultstring> | A human readable explanation of the fault | 
-| <faultactor> | Information about who caused the fault to happen | 
-| <detail> | Holds application specific error information related to the Body element |
+| 'faultcode' | A code for identifying the fault |
+| 'faultstring' | A human readable explanation of the fault | 
+| 'faultactor' | Information about who caused the fault to happen | 
+| 'detail' | Holds application specific error information related to the Body element |
 
 ## SOAP Fault Codes
 - The faultcode values defined below must be used in the faultcode element when describing faults:
