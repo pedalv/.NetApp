@@ -31,7 +31,7 @@
 # Web services platform elements
 - Web Services have three basic platform elements: SOAP, WSDL and UDDI.
 
-# What is SOAP (Simple Object Access Protocol)?
+## What is SOAP (Simple Object Access Protocol)?
 - SOAP is used to transfer the data
 - SOAP communicates via Internet
 - SOAP is a simple XML-based protocol to let applications exchange information over HTTP. Or more simple: SOAP is a protocol for accessing a Web Service.
@@ -46,7 +46,7 @@
 - SOAP is simple and extensible
 - SOAP allows you to get around firewalls
 - SOAP is a W3C standard recommendation for communication between two applications
-## So:
+### So:
 > (+) It is platform independent and language independent: SOAP web services can be written in any programming language and executed in any platform.
 
 > By using SOAP, you will be able to interact with other programming language applications.
@@ -59,7 +59,7 @@
 
 > (-) WSDL dependent: SOAP uses WSDL and doesn't have any other mechanism to discover the service.
 
-# What is WSDL (Web Services Description Language)?
+## What is WSDL (Web Services Description Language)?
 - WSDL is used for describing the services available
 - WSDL is a XML-based language for describing Web services such as method name, method parameter and how to access it.
 - WSDL is based on XML
@@ -69,7 +69,7 @@
 - WSDL is a part of UDDI. It acts as a interface between web service applications.
 
 
-# What is UDDI (Universal Description, Discovery and Integration)?
+## What is UDDI (Universal Description, Discovery and Integration)?
 - UDDI lists what services are available
 - UDDI is a XML based framework for describing, discovering and integrating web services.
 - UDDI is a directory of web service interfaces described by WSDL, containing information about web services.
@@ -86,7 +86,7 @@
 - to 2013, Sun improved with the realise of JSR 339 -> JAX-RS version 2.0
 - in 2013, Apache CXF build and develop services using frontend programming APIs, like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.
 
-# JAX-WS vs JAX-RS
+## JAX-WS vs JAX-RS
 | JAX-WS | JAX-RS |
 | ----- | ----- |
 | Distributed component integrarion | Mobile and web view integration |
@@ -94,7 +94,7 @@
 | Standars-based | Limited constrainsts |
 | Multiple transports | HTTP transport |
 
-# SOAP can be implemented using technologies
+## SOAP can be implemented using technologies
 - Java Busines Integration (JBI)-> services written in Java running on Java EE platforms
 - Windows Communication Foundation (WCF) - > services written in C# running on .NET platforms
 - Data Distribuion Service (DDS)
@@ -119,6 +119,122 @@
 > Reusable application components.
 
 > Connect existing software.
+
+## Why SOAP?
+- SOAP is important for application development to allow Internet communication between programs.
+- Today's applications communicate using Remote Procedure Calls (RPC) between objects like DCOM and CORBA, but HTTP was not designed for this. 
+- RPC represents a compatibility and security problem; firewalls and proxy servers will normally block this kind of traffic.
+- A better way to communicate between applications is over HTTP, because HTTP is supported by all Internet browsers and servers. 
+- SOAP was created to provides a way to communicate between applications, running on different operating systems, with different technologies and programming languages.
+
+## SOAP Syntax
+A SOAP message is an ordinary XML document containing the following elements:
+- An Envelope element that identifies the XML document as a SOAP message
+- A Header element that contains header information
+> The optional SOAP Header element contains application-specific information (like authentication, payment, etc) about the SOAP message.
+
+> If the Header element is present, it must be the first child element of the Envelope element.
+
+- A Body element that contains call and response information
+> The required SOAP Body element contains the actual SOAP message intended for the ultimate endpoint of the message. 
+
+> Immediate child elements of the SOAP Body element may be namespace-qualified.
+
+- A Fault element containing errors and status information
+> The optional SOAP Fault element is used to indicate error messages.
+
+> If a Fault element is present, it must appear as a child element of the Body element. A Fault element can only appear once in a SOAP message.
+
+> The SOAP Fault element has the following sub elements:
+| Sub Element | Description |
+| ----- | ----- |
+| <faultcode> | A code for identifying the fault |
+| <faultstring> | A human readable explanation of the fault | 
+| <faultactor> | Information about who caused the fault to happen | 
+| <detail> | Holds application specific error information related to the Body element |
+
+## SOAP Fault Codes
+The faultcode values defined below must be used in the faultcode element when describing faults:
+| Error | Description |
+| ----- | ----- |
+| VersionMismatch| Found an invalid namespace for the SOAP Envelope element | 
+| MustUnderstand| An immediate child element of the Header element, with the mustUnderstand attribute set to "1", was not understood |
+| Client| The message was incorrectly formed or contained incorrect information |
+| Server| There was a problem with the server so the message could not proceed |
+
+## Syntax Rules
+Here are some important syntax rules:
+- A SOAP message MUST be encoded using XML
+- A SOAP message MUST use the SOAP Envelope namespace
+- A SOAP message MUST use the SOAP Encoding namespace
+- A SOAP message must NOT contain a DTD reference
+- A SOAP message must NOT contain XML Processing Instructions
+
+## SOAP Message
+```bash
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
+soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+<soap:Header>
+  ...
+  ...
+</soap:Header>
+<soap:Body>
+  ...
+  ...
+  <soap:Fault>
+    ...
+    ...
+  </soap:Fault>
+</soap:Body>
+</soap:Envelope>
+```
+## The HTTP Protocol
+- HTTP communicates over TCP/IP. 
+- An HTTP client connects to an HTTP server using TCP. 
+- After establishing a connection, the client can send an HTTP request message to the server:
+```bash
+POST /item HTTP/1.1
+Host: 189.123.345.239
+Content-Type: text/plain
+Content-Length: 200
+```
+- The server then processes the request and sends an HTTP response back to the client. 
+- The response contains a status code that indicates the status of the request:
+```bash
+200 OK
+Content-Type: text/plain
+Content-Length: 200
+```
+
+## SOAP HTTP Binding
+- A SOAP method is an HTTP request/response that complies with the SOAP encoding rules.
+- HTTP + XML = SOAP
+- A SOAP request could be an HTTP POST or an HTTP GET request.
+- The HTTP POST request specifies at least two HTTP headers: Content-Type and Content-Length.
+### Content-Type
+- The Content-Type header for a SOAP request and response defines the MIME type for the message and the character encoding (optional) used for the XML body of the request or response.
+```bash
+// Syntax
+Content-Type: MIMEType; charset=character-encoding
+
+//Example
+POST /item HTTP/1.1
+Content-Type: application/soap+xml; charset=utf-8
+```
+### Content-Length
+- The Content-Length header for a SOAP request and response specifies the number of bytes in the body of the request or response.
+```bash
+// Syntax
+Content-Length: bytes
+ 
+// Example
+
+POST /item HTTP/1.1
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: 250
+``` 
 
 # Basic concepts
 ## Loose coupling 
