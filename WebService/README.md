@@ -146,21 +146,23 @@ A SOAP message is an ordinary XML document containing the following elements:
 > If a Fault element is present, it must appear as a child element of the Body element. A Fault element can only appear once in a SOAP message.
 
 > The SOAP Fault element has the following sub elements:
+
 | Sub Element | Description |
-| ----- | ----- |
+| --------------- | --------------- |
 | <faultcode> | A code for identifying the fault |
 | <faultstring> | A human readable explanation of the fault | 
 | <faultactor> | Information about who caused the fault to happen | 
 | <detail> | Holds application specific error information related to the Body element |
 
 ## SOAP Fault Codes
-The faultcode values defined below must be used in the faultcode element when describing faults:
+- The faultcode values defined below must be used in the faultcode element when describing faults:
+
 | Error | Description |
-| ----- | ----- |
-| VersionMismatch| Found an invalid namespace for the SOAP Envelope element | 
-| MustUnderstand| An immediate child element of the Header element, with the mustUnderstand attribute set to "1", was not understood |
-| Client| The message was incorrectly formed or contained incorrect information |
-| Server| There was a problem with the server so the message could not proceed |
+| --------------- | --------------- |
+| VersionMismatch | Found an invalid namespace for the SOAP Envelope element | 
+| MustUnderstand | An immediate child element of the Header element, with the mustUnderstand attribute set to "1", was not understood |
+| Client | The message was incorrectly formed or contained incorrect information |
+| Server | There was a problem with the server so the message could not proceed |
 
 ## Syntax Rules
 Here are some important syntax rules:
