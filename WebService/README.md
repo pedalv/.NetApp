@@ -52,7 +52,9 @@
 - SOAP allows you to get around firewalls
 - SOAP is a W3C standard recommendation for communication between two applications
 ### So:
-> (+) It is platform independent and language independent: SOAP web services can be written in any programming language and executed in any platform.
+> (+) SOAP is platform independent and language independent.
+
+> SOAP web services can be written in any programming language and executed in any platform.
 
 > By using SOAP, you will be able to interact with other programming language applications.
 
