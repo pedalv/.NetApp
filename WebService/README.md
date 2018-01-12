@@ -1,7 +1,12 @@
 # WebService
-- A web service is a software system designed to support interoperable machine-to-machine interaction over a network.
+- Introduction about WebServices (or WS) 
+- Creating a simple project with Windows Communication Foundation (or WCF)
+>  WCF services written in C# running on .NET platforms
+- Basic concepts about OO relater with WebServices (or WS)
+- Introduction about Windows Communication Foundation (or WCF)
 
 # What are Web Services?
+- A web service is a software system designed to support interoperable machine-to-machine interaction over a network.
 - The term "web service" describes a standardized way of integrating web-based applications using the XML, SOAP, WSDL and UDDI open standards over an Internet Protocol backbone.
 - XML is the data format used to contain the data and provide metadata around it, 
 - SOAP is used to transfer the data, 
@@ -99,7 +104,7 @@
 - Windows Communication Foundation (WCF) - > services written in C# running on .NET platforms
 > [Walkthrough: Creating a simple WCF Service in Windows Forms](https://msdn.microsoft.com/en-us/library/bb386386.aspx)
 
-> The example above is available on GitHub with the linke [https://github.com/pedalv/.NetApp/tree/master/WebService/WCF](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
+> The example above is available on GitHub with the link [https://github.com/pedalv/.NetApp/tree/master/WebService/WCF](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
 - Data Distribuion Service (DDS)
 
 # Why Web Services?
@@ -241,7 +246,7 @@ Content-Type: application/soap+xml; charset=utf-8
 Content-Length: 250
 ``` 
 
-# Basic concepts
+# Basic concepts about OO relater with WS
 ## Loose coupling 
 - In computing and systems design is one in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components. 
 - Subareas include the coupling of classes, interfaces, data, and services.
