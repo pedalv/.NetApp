@@ -129,7 +129,7 @@
 - can be "low" (also "loose" or "weak") or "high" (alse "tight" and "strong")
 - low coupling correlates with high cohesion.
 - low coupling is often a sign of a well structured computer system, good design, sepports the general gools of high rability and maintainability.
-![Types of coupling](https://github.com/pedalv/.NetApp/blob/master/WebService/Coupling_sketches_cropped_1.svg)
+- ![Types of coupling](https://github.com/pedalv/.NetApp/blob/master/WebService/Coupling_sketches_cropped_1.svg)
 					   
 ## Cohesion
 - refers to the degree to which the elements inside a module belong together.
