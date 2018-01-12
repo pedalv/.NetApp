@@ -97,6 +97,9 @@
 ## SOAP can be implemented using technologies
 - Java Busines Integration (JBI)-> services written in Java running on Java EE platforms
 - Windows Communication Foundation (WCF) - > services written in C# running on .NET platforms
+> [Walkthrough: Creating a simple WCF Service in Windows Forms](https://msdn.microsoft.com/en-us/library/bb386386.aspx)
+
+> Coden is available on GitHub with the linke [https://github.com/pedalv/.NetApp/tree/master/WebService/WCF](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
 - Data Distribuion Service (DDS)
 
 # Why Web Services?
