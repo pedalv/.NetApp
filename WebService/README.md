@@ -36,7 +36,7 @@
 # Web services platform elements
 - Web Services have three basic platform elements: SOAP, WSDL and UDDI.
 
-## What is SOAP (Simple Object Access Protocol)?
+## What is SOAP (or Simple Object Access Protocol)?
 - SOAP is used to transfer the data
 - SOAP communicates via Internet
 - SOAP is a simple XML-based protocol to let applications exchange information over HTTP. Or more simple: SOAP is a protocol for accessing a Web Service.
@@ -64,7 +64,7 @@
 
 > (-) WSDL dependent: SOAP uses WSDL and doesn't have any other mechanism to discover the service.
 
-## What is WSDL (Web Services Description Language)?
+## What is WSDL (or Web Services Description Language)?
 - WSDL is used for describing the services available
 - WSDL is a XML-based language for describing Web services such as method name, method parameter and how to access it.
 - WSDL is based on XML
@@ -74,7 +74,7 @@
 - WSDL is a part of UDDI. It acts as a interface between web service applications.
 
 
-## What is UDDI (Universal Description, Discovery and Integration)?
+## What is UDDI (or Universal Description, Discovery and Integration)?
 - UDDI lists what services are available
 - UDDI is a XML based framework for describing, discovering and integrating web services.
 - UDDI is a directory of web service interfaces described by WSDL, containing information about web services.
@@ -100,12 +100,12 @@
 | Multiple transports | HTTP transport |
 
 ## SOAP can be implemented using technologies
-- Java Busines Integration (JBI)-> services written in Java running on Java EE platforms
-- Windows Communication Foundation (WCF) - > services written in C# running on .NET platforms
+- Java Busines Integration (or JBI)-> services written in Java running on Java EE platforms
+- Windows Communication Foundation (or WCF) - > services written in C# running on .NET platforms
 > [Walkthrough: Creating a simple WCF Service in Windows Forms](https://msdn.microsoft.com/en-us/library/bb386386.aspx)
 
 > The example above is available on GitHub with the link [https://github.com/pedalv/.NetApp/tree/master/WebService/WCF](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
-- Data Distribuion Service (DDS)
+- Data Distribuion Service (or DDS)
 
 # Why Web Services?
 - Reability, security, scalability, performance,
@@ -130,7 +130,7 @@
 
 ## Why SOAP?
 - SOAP is important for application development to allow Internet communication between programs.
-- Today's applications communicate using Remote Procedure Calls (RPC) between objects like DCOM and CORBA, but HTTP was not designed for this. 
+- Today's applications communicate using Remote Procedure Calls (or RPC) between objects like DCOM and CORBA, but HTTP was not designed for this. 
 - RPC represents a compatibility and security problem; firewalls and proxy servers will normally block this kind of traffic.
 - A better way to communicate between applications is over HTTP, because HTTP is supported by all Internet browsers and servers. 
 - SOAP was created to provides a way to communicate between applications, running on different operating systems, with different technologies and programming languages.
@@ -251,10 +251,10 @@ Content-Length: 250
 - In computing and systems design is one in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components. 
 - Subareas include the coupling of classes, interfaces, data, and services.
 - reference, time, format, and platform
-- is transactions, queues provided by messag-oriented middleware (MOM), and interoperability standards
+- is transactions, queues provided by messag-oriented middleware (or MOM), and interoperability standards
 - Loose coupling is the opposite of tight coupling.
 
-## Message-oriented middleware (MOM)
+## Message-oriented middleware (or MOM)
 - (+) Store (buffer), router, or transform messages, adding and administrativ interface (monitor and tune performance)
 
 ## Coupling
