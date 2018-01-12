@@ -32,28 +32,47 @@
 - Web Services have three basic platform elements: SOAP, WSDL and UDDI.
 
 # What is SOAP (Simple Object Access Protocol)?
-- SOAP is used to transfer the data, 
+- SOAP is used to transfer the data
+- SOAP communicates via Internet
 - SOAP is a simple XML-based protocol to let applications exchange information over HTTP. Or more simple: SOAP is a protocol for accessing a Web Service.
+- SOAP is for communication between applications
 - SOAP is a communication protocol
 - SOAP is a format for sending messages
 - SOAP is designed to communicate via Internet 
 - SOAP is platform independent
 - SOAP is language independent
-- SOAP is based on XML
+- SOAP is based on XML, so it is platform independent and language independent. In other words, it can be used with Java, .Net or PHP language on any platform.
+- SOAP is a XML-based protocol for accessing web services.
 - SOAP is simple and extensible
 - SOAP allows you to get around firewalls
-- SOAP is a W3C standard
+- SOAP is a W3C standard recommendation for communication between two applications
+## So:
+> (+) It is platform independent and language independent: SOAP web services can be written in any programming language and executed in any platform.
+
+> By using SOAP, you will be able to interact with other programming language applications.
+
+> (+) WS Security: SOAP defines its own security known as WS Security.
+
+> HTTP POST, JMS, etc
+
+> (-) Slow: SOAP uses XML format that must be parsed to be read. It defines many standards that must be followed while developing the SOAP applications. So it is slow and consumes more bandwidth and resource.
+
+> (-) WSDL dependent: SOAP uses WSDL and doesn't have any other mechanism to discover the service.
 
 # What is WSDL (Web Services Description Language)?
 - WSDL is used for describing the services available
-- WSDL is an XML-based language for describing Web services and how to access them.
+- WSDL is a XML-based language for describing Web services such as method name, method parameter and how to access it.
 - WSDL is based on XML
 - WSDL is used to describe Web services
 - WSDL is also used to locate Web services
 - WSDL is a W3C standard
+- WSDL is a part of UDDI. It acts as a interface between web service applications.
+
 
 # What is UDDI (Universal Description, Discovery and Integration)?
 - UDDI lists what services are available
+- UDDI is a XML based framework for describing, discovering and integrating web services.
+- UDDI is a directory of web service interfaces described by WSDL, containing information about web services.
 - UDDI is a directory service where businesses can register and search for Web services.
 - UDDI is a directory for storing information about web services
 - UDDI is a directory of web service interfaces described by WSDL
@@ -132,3 +151,19 @@
 ## Statefull, RESfull HTTP with REST
 - The program has a memory (State)
 - Previous transaction are remmembered and may affect the curent transaction
+
+# [SOAP vs REST Web Services](https://www.javatpoint.com/soap-vs-rest-web-services)
+| No. | SOAP | REST |
+| ----- | ----- | ----- |
+| 1) | SOAP is a protocol. | REST is an architectural style. |
+| 2) | SOAP stands for Simple Object Access Protocol. |  REST stands for REpresentational State Transfer. |
+| 3) | SOAP can't use REST because it is a protocol. |  REST can use SOAP web services because it is a concept and can use any protocol like HTTP, SOAP. |
+| 4) | SOAP uses services interfaces to expose the business logic. |  REST uses URI to expose business logic. |
+| 5) | JAX-WS is the java API for SOAP web services. |  JAX-RS is the java API for RESTful web services. |
+| 6) | SOAP defines standards  to be strictly followed. |   REST does not define too much standards like SOAP. |
+| 7) | SOAP requires more bandwidth and resource than REST. |  REST requires less bandwidth and resource than SOAP. |
+| 8) | SOAP defines its own security. |  RESTful web services inherits security measures from the underlying transport. |
+| 9) | SOAP permits XML data format only. |  REST permits different data format such as Plain text, HTML, XML, JSON etc. |
+| 10) | SOAP is less preferred than REST. |  REST more preferred than SOAP. |
+
+
