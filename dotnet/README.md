@@ -1,4 +1,4 @@
-# Introduction about [.NET SDKs for Visual Studio](https://www.microsoft.com/net/download/visual-studio-sdks) 
+# [.NET SDKs for Visual Studio](https://www.microsoft.com/net/download/visual-studio-sdks) 
 - .NET Core 2.x
 - .NET Framework 4.x.x
 - Services
