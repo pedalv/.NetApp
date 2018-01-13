@@ -21,4 +21,5 @@
 
 ## Introduction about Windows Communication Foundation (or WCF)
 - [Windows Communication Foundation Services and WCF Data Services in Visual Studio](https://msdn.microsoft.com/en-us/library/bb386386.aspx)
+- [WCF for .NET Core 2.0.0 ](https://github.com/dotnet/wcf/releases/tag/v2.0.0)
 - TODO
