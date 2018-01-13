@@ -1,7 +1,6 @@
 # WebService
 - Introduction about WebServices (or WS) 
-- Creating a simple project with Windows Communication Foundation (or WCF)
->  WCF services written in C# running on .NET platforms
+- [Creating a simple project with Windows Communication Foundation (or WCF)](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
 - Basic concepts about OO relater with WebServices (or WS)
 - Introduction about Windows Communication Foundation (or WCF)
 
@@ -104,9 +103,6 @@
 ## SOAP can be implemented using technologies
 - Java Busines Integration (or JBI)-> services written in Java running on Java EE platforms
 - Windows Communication Foundation (or WCF) - > services written in C# running on .NET platforms
-> [Walkthrough: Creating a simple WCF Service in Windows Forms](https://msdn.microsoft.com/en-us/library/bb386386.aspx)
-
-> The example above is available on GitHub with the link [https://github.com/pedalv/.NetApp/tree/master/WebService/WCF](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
 - Data Distribuion Service (or DDS)
 
 # Why Web Services?
@@ -301,5 +297,3 @@ Content-Length: 250
 | 8) | SOAP defines its own security. |  RESTful web services inherits security measures from the underlying transport. |
 | 9) | SOAP permits XML data format only. |  REST permits different data format such as Plain text, HTML, XML, JSON etc. |
 | 10) | SOAP is less preferred than REST. |  REST more preferred than SOAP. |
-
-
