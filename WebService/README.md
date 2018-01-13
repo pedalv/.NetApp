@@ -256,6 +256,8 @@ Content-Length: 250
 - Loose coupling is the opposite of tight coupling.
 
 ## Message-oriented middleware (or MOM)
+- Remote Procedure Call or RPC-based middleware
+- Object Request Broker or ORB-based middleware
 - (+) Store (buffer), router, or transform messages, adding and administrativ interface (monitor and tune performance)
 
 ## Coupling
