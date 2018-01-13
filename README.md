@@ -1,10 +1,7 @@
 # .NetApp
 .Net/C# projects to build competence.
 
-# Fetch all .NetApp projects
-```bash
-git clone https://github.com/pedalv/.NetApp.git
-```
+# [Microsoft Docs](https://docs.microsoft.com/en-gb/)
 
 # Project 3: WebService
 - Introduction about WebServices (or WS) and Windows Communication Foundation (or WCF)
@@ -17,3 +14,8 @@ git clone https://github.com/pedalv/.NetApp.git
 # Project 1: Game
 - Project for show logic skills
 - Game project is located on [https://github.com/pedalv/.NetApp/tree/master/Game](https://github.com/pedalv/.NetApp/tree/master/Game)
+
+# Fetch all .NetApp projects
+```bash
+git clone https://github.com/pedalv/.NetApp.git
+```

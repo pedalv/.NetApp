@@ -17,5 +17,3 @@
 ## Introduction about Windows Communication Foundation (or WCF)
 - [Windows Communication Foundation Services and WCF Data Services in Visual Studio](https://msdn.microsoft.com/en-us/library/bb386386.aspx)
 - TODO
-
-# [Microsoft Docs](https://docs.microsoft.com/en-gb/)
