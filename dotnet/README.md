@@ -29,9 +29,9 @@
 
 > With .NET, you can use multiple languages, editors, and libraries to build for web, mobile, desktop, gaming, and IoT.
 - Languages, you can write your .NET apps in:
-> [C#](https://docs.microsoft.com/en-gb/dotnet/csharp/) and [C# Quick start: Collections](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/). C# is a simple, modern, object-oriented, and type-safe programming language.
+> [C#](https://docs.microsoft.com/en-gb/dotnet/csharp/) and [C# Quick start](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/). C# is a simple, modern, object-oriented, and type-safe programming language.
 
-> [F#](https://docs.microsoft.com/en-gb/dotnet/fsharp/). F# is a cross-platform, open-source, functional programming language for .NET. It also includes object-oriented and imperative programming.
+> [F#](https://docs.microsoft.com/en-gb/dotnet/fsharp/) is a cross-platform, open-source, functional programming language for .NET. It also includes object-oriented and imperative programming.
 
 > or [Visual Basic](https://docs.microsoft.com/en-gb/dotnet/visual-basic/). Visual Basic is an approachable language with a simple syntax for building type-safe, object-oriented apps.
 - A developer platform for building Web | Mobile | Desktop | Gamming | Machine Learning & AI | Internet of Things apps.
