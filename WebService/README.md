@@ -287,7 +287,7 @@ Content-Length: 250
 
 ## Statefull, RESfull HTTP with REST
 - The program has a memory (State)
-- Previous transaction are remmembered and may affect the curent transaction
+- Previous transaction are remembered and may affect the curent transaction
 
 # [SOAP vs REST Web Services](https://www.javatpoint.com/soap-vs-rest-web-services)
 | No. | SOAP | REST |
