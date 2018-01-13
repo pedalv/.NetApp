@@ -90,7 +90,10 @@
 - In 2006, Sun released JSR 224, JAX-WS 2.0 - SOAP, XML
 - In 2008, Sun introduced JSR 311 -> JAX-RS - Restful, JSON
 - to 2013, Sun improved with the realise of JSR 339 -> JAX-RS version 2.0
-- in 2013, Apache CXF build and develop services using frontend programming APIs, like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI.
+- in 2013, Apache CXF build and develop services using frontend programming APIs, like JAX-WS and JAX-RS. 
+> These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA 
+
+> and work over a variety of transports such as HTTP, JMS or JBI.
 
 ## JAX-WS vs JAX-RS
 | JAX-WS | JAX-RS |
