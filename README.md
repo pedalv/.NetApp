@@ -3,6 +3,10 @@
 
 # [Microsoft Docs](https://docs.microsoft.com/en-gb/)
 
+# Project 4: dotnet
+- Introduction about .NET SDKs for Visual Studio
+- dotnet project is located on [https://github.com/pedalv/.NetApp/tree/master/dotnet](https://github.com/pedalv/.NetApp/tree/master/dotnet)
+
 # Project 3: WebService
 - Introduction about WebServices (or WS) and Windows Communication Foundation (or WCF)
 - WebService project is located on [https://github.com/pedalv/.NetApp/tree/master/WebService](https://github.com/pedalv/.NetApp/tree/master/WebService)

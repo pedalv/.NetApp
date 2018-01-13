@@ -41,6 +41,7 @@
 - SOAP is a simple XML-based protocol to let applications exchange information over HTTP. Or more simple: SOAP is a protocol for accessing a Web Service.
 - SOAP is for communication between applications
 - SOAP is a communication protocol
+- ![Elements of SOA, by Dirk Krafzig, Karl Banke, and Dirk Slama](https://github.com/pedalv/.NetApp/blob/master/WebService/800px-SOA_Elements.png) ![SOA meta-model, The Linthicum Group, 2007](https://github.com/pedalv/.NetApp/blob/master/WebService/713px-SOA_Metamodel.png)
 - SOAP is a format for sending messages
 - SOAP is designed to communicate via Internet 
 - SOAP is platform independent
