@@ -1,8 +1,32 @@
 # WebService
-- Introduction about WebServices (or WS) 
-- [Creating a simple project with Windows Communication Foundation (or WCF)](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
+- What are Web Services (or WS) ?
+- How Does «Web services architecture» Work? 
+- Web services platform elements
+> What is SOAP (or Simple Object Access Protocol)?
+> What is WSDL (or Web Services Description Language)?
+> What is UDDI (or Universal Description, Discovery and Integration)?
+> History - Defining Web Services - SOAP
+> JAX-WS vs JAX-RS
+> SOAP can be implemented using technologies
+- Why Web Services?
+- Why SOAP?
+> SOAP Syntax
+> SOAP Fault Codes
+> Syntax Rules
+> SOAP Message
+> The HTTP Protocol
+> SOAP HTTP Binding (Content-Type and Content-Length)
 - Basic concepts about OO relater with WebServices (or WS)
-- Introduction about Windows Communication Foundation (or WCF)
+> Loose coupling 
+> Message-oriented middleware (or MOM)
+> Coupling		   
+> Cohesion
+> Coupling and Cohesion
+> Connascense
+> Stateless
+> Statefull, RESfull HTTP with REST
+- [SOAP vs REST Web Services](https://www.javatpoint.com/soap-vs-rest-web-services)
+- [Creating a simple project with Windows Communication Foundation (or WCF)](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
 
 # What are Web Services?
 - A web service is a software system designed to support interoperable machine-to-machine interaction over a network.
@@ -11,7 +35,7 @@
 - SOAP is used to transfer the data, 
 - WSDL is used for describing the services available 
 - and UDDI lists what services are available.
-## So:
+#### So:
 - Web Services can convert your applications into Web-applications
 - Web Services are published, found, and used through the Web
 - Web services are application components
@@ -27,7 +51,7 @@
 - The service requester contacts UDDI to find out who is the provider for the data it needs, and then it contacts the service provider using the SOAP protocol. 
 - The service provider validates the service request and sends structured data in an XML file, using the SOAP protocol. 
 - This XML file would be validated again by the service requester using an XSD file.
-## So:
+#### So:
 - The basic Web services platform is XML + HTTP.
 - The HTTP protocol is the most used Internet protocol.
 - XML provides a language which can be used between different platforms and programming languages and still express complex messages and functions.
@@ -51,7 +75,7 @@
 - SOAP is simple and extensible
 - SOAP allows you to get around firewalls
 - SOAP is a W3C standard recommendation for communication between two applications
-### So:
+#### So:
 > (+) SOAP is platform independent and language independent.
 
 > SOAP web services can be written in any programming language and executed in any platform.
@@ -86,7 +110,7 @@
 - UDDI communicates via SOAP
 - UDDI is built into the Microsoft .NET platform
 
-# History - Defining Web Services - SOAP
+## History - Defining Web Services - SOAP
 - In 2002, Sun released their first web service specification, JSR 101 - REST, XML -> JAX-RCP - SOAP, XML
 - In 2006, Sun released JSR 224, JAX-WS 2.0 - SOAP, XML
 - In 2008, Sun introduced JSR 311 -> JAX-RS - Restful, JSON
@@ -130,7 +154,7 @@
 
 > Connect existing software.
 
-## Why SOAP?
+# Why SOAP?
 - SOAP is important for application development to allow Internet communication between programs.
 - Today's applications communicate using Remote Procedure Calls (or RPC) between objects like DCOM and CORBA, but HTTP was not designed for this. 
 - RPC represents a compatibility and security problem; firewalls and proxy servers will normally block this kind of traffic.
@@ -225,7 +249,7 @@ Content-Length: 200
 - HTTP + XML = SOAP
 - A SOAP request could be an HTTP POST or an HTTP GET request.
 - The HTTP POST request specifies at least two HTTP headers: Content-Type and Content-Length.
-### Content-Type
+#### Content-Type
 - The Content-Type header for a SOAP request and response defines the MIME type for the message and the character encoding (optional) used for the XML body of the request or response.
 ```bash
 // Syntax
@@ -235,7 +259,7 @@ Content-Type: MIMEType; charset=character-encoding
 POST /item HTTP/1.1
 Content-Type: application/soap+xml; charset=utf-8
 ```
-### Content-Length
+#### Content-Length
 - The Content-Length header for a SOAP request and response specifies the number of bytes in the body of the request or response.
 ```bash
 // Syntax
@@ -248,7 +272,7 @@ Content-Type: application/soap+xml; charset=utf-8
 Content-Length: 250
 ``` 
 
-# Basic concepts about OO relater with WS
+# Basic concepts about OO relater with WebServices (or WS)
 ## Loose coupling 
 - In computing and systems design is one in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components. 
 - Subareas include the coupling of classes, interfaces, data, and services.
