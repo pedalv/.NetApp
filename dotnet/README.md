@@ -1,4 +1,5 @@
 # dotnet
+- [.NET SDKs for Visual Studio](https://www.microsoft.com/net/download/visual-studio-sdks) 
 - What is .NET?
 - Tools
 - [.NET Core SDK](https://www.microsoft.com/net/download/windows)
