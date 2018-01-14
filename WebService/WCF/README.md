@@ -1,4 +1,5 @@
 # WCF
+- What is WCF?
 - Creating a simple project with Windows Communication Foundation (or WCF)
 - Introduction about Windows Communication Foundation (or WCF)
 
