@@ -96,9 +96,11 @@ appdotnet run
 ```
 
 ## [.NET Framework 4.7.1](https://www.microsoft.com/net/download/windows)
-- Windows-only .NET implementation. 
+- .NET Framework is a Windows-only. 
+- .NET implementation that includes APIs for accessing the Windows Registry. 
 - Run existing .NET applications on Windows.
-- To extend functionality, Microsoft and others maintain a healthy package ecosystem built on .NET Standard.
+- Each implementation can also expose additional APIs that are specific to the operating systems it runs on. 
+- One consistent API to extend functionality, Microsoft and others maintain a healthy package ecosystem built on .NET Standard.
 - [.NET Framework Guide](https://docs.microsoft.com/en-gb/dotnet/framework/)
 - [Connect with other .NET developers](https://www.microsoft.com/net/community)
 - [Step-by-step tutorial to build your first .NET application](https://www.microsoft.com/net/learn/get-started2/windows?utm_expid=.-Fmi9Q05Ry2oXQgdtPElHw.1&utm_referrer=https%3A%2F%2Fwww.microsoft.com%2Fnet%2Fdownload%2Fthank-you%2Fnet471)
