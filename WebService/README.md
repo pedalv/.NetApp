@@ -146,8 +146,8 @@
 | Multiple transports | HTTP transport |
 
 ## SOAP can be implemented using technologies
-- Java Busines Integration (or JBI)-> services written in Java running on Java EE platforms
-- Windows Communication Foundation (or WCF) - > services written in C# running on .NET platforms
+- Java Busines Integration (or JBI) => services written in Java running on Java EE platforms
+- Windows Communication Foundation (or WCF) => services written in C# running on .NET platforms
 - Data Distribuion Service (or DDS)
 
 # Why Web Services?
