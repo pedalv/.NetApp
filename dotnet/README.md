@@ -43,7 +43,7 @@
 
 > Xamarin/Mono is a .NET implementation for running apps on all the major mobile operating systems.
 - One consistent API
-> NET Standard is a base set of APIs that are common to all .NET implementations.
+> .NET Standard is a base set of APIs that are common to all .NET implementations.
 - Libraries
 > To extend functionality, Microsoft and others maintain a healthy package ecosystem built on .NET Standard.
 
