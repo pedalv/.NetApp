@@ -90,7 +90,7 @@ dotnet new <Short_Name> -o myApp
 ```
 Short_Name: console, classlib, mstest, xunit, web, mvc, razor, angular, react, reactredux, webapi, globaljson, nugetconfig, webconfig, sln, page, viewimports, viewstart  
 - Examples: dotnet new mvc --auth Individual | dotnet new razor --auth Individual | dotnet new --help
-- Run your
+- Run your app
 ```bash
 appdotnet run 
 ```
