@@ -3,27 +3,44 @@
 - How Does «Web services architecture» Work? 
 - Web services platform elements
 > What is SOAP (or Simple Object Access Protocol)?
+
 > What is WSDL (or Web Services Description Language)?
+
 > What is UDDI (or Universal Description, Discovery and Integration)?
+
 > History - Defining Web Services - SOAP
+
 > JAX-WS vs JAX-RS
+
 > SOAP can be implemented using technologies
 - Why Web Services?
 - Why SOAP?
 > SOAP Syntax
+
 > SOAP Fault Codes
+
 > Syntax Rules
+
 > SOAP Message
+
 > The HTTP Protocol
+
 > SOAP HTTP Binding (Content-Type and Content-Length)
 - Basic concepts about OO relater with WebServices (or WS)
 > Loose coupling 
+
 > Message-oriented middleware (or MOM)
+
 > Coupling		   
+
 > Cohesion
+
 > Coupling and Cohesion
+
 > Connascense
+
 > Stateless
+
 > Statefull, RESfull HTTP with REST
 - [SOAP vs REST Web Services](https://www.javatpoint.com/soap-vs-rest-web-services)
 - [Creating a simple project with Windows Communication Foundation (or WCF)](https://github.com/pedalv/.NetApp/tree/master/WebService/WCF)
