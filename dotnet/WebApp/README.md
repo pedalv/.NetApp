@@ -31,7 +31,7 @@
 
 ## Commands
 - Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design -Version 2.0.0
-- Add-Migration Initial
+- Add-Migration Initial | Rating
 - Update-Database
 - dotnet aspnet-codegenerator razorpage -m Movie -dc MovieContext -udl -outDir Pages\Movies --referenceScriptLibraries
 > -m: The name of the model. 
