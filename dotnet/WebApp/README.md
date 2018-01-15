@@ -16,6 +16,7 @@
 - [Introduction to Dependency Injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 - [Working with static files in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/static-files)
 - [Migrations - EF Core with ASP.NET Core MVC tutorial (4 of 10)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/migrations)
+- [Preventing Cross-Site Request Forgery (XSRF/CSRF) Attacks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/anti-request-forgery)
 
 # NuGet package 
 - "Microsoft.Extensions.Configuration.Binder"
