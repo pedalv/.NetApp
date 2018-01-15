@@ -38,3 +38,16 @@
 > -udl: Use the default layout. 
 > -outDir: The relative output folder path to create the views. 
 > --referenceScriptLibraries: Adds _ValidationScriptsPartial to Edit and Create pages 
+
+## Routing in the Startup.cs file
+- http://server:port/[Controller]/[ActionName]/[Parameters]?[query-strings] => "{controller=HelloWorld}/{action=Welcome}/77?[name=Pedro&city=Oslo]"
+- Eksempler:
+> http://localhost:51038/
+
+> http://localhost:51038/HelloWorld
+
+> http://localhost:51038/HelloWorld/Welcome
+
+> http://localhost:51038/HelloWorld/Welcome?name=Rick&numtimes=4
+
+> http://localhost:51038/HelloWorld/Welcome/77?name=Rick&numtimes=4
