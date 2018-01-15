@@ -4,8 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RazorPagesMovie.Models;
 
 namespace RazorPagesMovie
 {
@@ -21,7 +23,21 @@ namespace RazorPagesMovie
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            /*
+             * public static IServiceCollection AddDbContext<TContext>(
+             *      [NotNullAttribute] this IServiceCollection serviceCollection, 
+             *      [CanBeNullAttribute] Action<DbContextOptionsBuilder> optionsAction = null, 
+             *      ServiceLifetime contextLifetime = ServiceLifetime.Scoped, 
+             *      ServiceLifetime optionsLifetime = ServiceLifetime.Scoped
+             *      ) where TContext : DbContext;
+             */
+            services.AddDbContext<MovieContext>(
+                options => options.UseSqlServer(Configuration.GetConnectionString("MovieContext"))
+                );
+
             services.AddMvc();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
