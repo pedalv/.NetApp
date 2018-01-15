@@ -17,6 +17,7 @@
 - [Working with static files in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/static-files)
 - [Migrations - EF Core with ASP.NET Core MVC tutorial (4 of 10)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/migrations)
 - [Preventing Cross-Site Request Forgery (XSRF/CSRF) Attacks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/anti-request-forgery)
+- [Publish an ASP.NET Core web app to Azure App Service using Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
 
 # NuGet package 
 - "Microsoft.Extensions.Configuration.Binder"
