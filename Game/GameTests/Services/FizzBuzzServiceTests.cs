@@ -14,12 +14,22 @@ namespace GameTests.Services
 
         private IFizzBuzzService _fizzBuzzService;
 
+        [TestInitialize]
+        public void Setup()
+        {
+            _fizzBuzzService = new FizzBuzzService();
+        }
+
+        [TestCleanup()]
+        public void Cleanup() {
+            _fizzBuzzService = null;
+        }
+
         [TestMethod()]
         [ExpectedException(typeof(PlayLostException), "A player who hesitates or makes a mistake is eliminated from the game.")]
         public void GetFizzBuzzTest_0_Should_return_exception()
         {
             var i = 0;
-            _fizzBuzzService = new FizzBuzzService();
             var actual = _fizzBuzzService.GetFizzBuzz(i);
             Console.WriteLine(actual);
         }
@@ -32,7 +42,6 @@ namespace GameTests.Services
             var expected_1 = "1";
             var lenExpected = 1;
 
-            _fizzBuzzService = new FizzBuzzService();
             var actual = _fizzBuzzService.GetFizzBuzz(i);
 
             Assert.IsNotNull(actual);
@@ -51,7 +60,6 @@ namespace GameTests.Services
             var expected_2 = "2";
             var lenExpected = 2;
 
-            _fizzBuzzService = new FizzBuzzService();
             var actual = _fizzBuzzService.GetFizzBuzz(i);
 
             Assert.IsNotNull(actual);
@@ -72,7 +80,6 @@ namespace GameTests.Services
             var expected_3 = "Fizz";
             var lenExpected = 3;
 
-            _fizzBuzzService = new FizzBuzzService();
             var actual = _fizzBuzzService.GetFizzBuzz(i);
 
             Assert.IsNotNull(actual);
@@ -96,7 +103,6 @@ namespace GameTests.Services
             var expected_4 = "4";
             var lenExpected = 4;
 
-            _fizzBuzzService = new FizzBuzzService();
             var actual = _fizzBuzzService.GetFizzBuzz(i);
 
             Assert.IsNotNull(actual);
@@ -122,7 +128,6 @@ namespace GameTests.Services
             var expected_5 = "buzz";
             var lenExpected = 5;
 
-            _fizzBuzzService = new FizzBuzzService();
             var actual = _fizzBuzzService.GetFizzBuzz(i);
 
             Assert.IsNotNull(actual);
@@ -149,8 +154,7 @@ namespace GameTests.Services
             var expected_5 = "buzz";
             var expected_6 = "Fizz";
             var lenExpected = 6;
-
-            _fizzBuzzService = new FizzBuzzService();
+            
             var actual = _fizzBuzzService.GetFizzBuzz(i);
 
             Assert.IsNotNull(actual);
@@ -180,8 +184,7 @@ namespace GameTests.Services
             //...
             var expected_30 = "Fizzbuzz";
             var lenExpected = 30;
-
-            _fizzBuzzService = new FizzBuzzService();
+            
             var actual = _fizzBuzzService.GetFizzBuzz(i);
 
             Assert.IsNotNull(actual);
