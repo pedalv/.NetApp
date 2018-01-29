@@ -1,5 +1,6 @@
 ﻿using System;
 using Game.IServices;
+using Game.Logic;
 using Game.Services;
 
 namespace Game
@@ -8,9 +9,12 @@ namespace Game
     {
         static void Main(string[] args)
         {
-            
+
             IFizzBuzzService fizzBuzzService = new FizzBuzzService();
-            foreach (var result in fizzBuzzService.GetFizzBuzz(100))
+
+            int number = NumberLogic.ChoiceValidNumber();
+
+            foreach (var result in fizzBuzzService.GetFizzBuzz(number))
             {
                 Console.WriteLine(result);
             }
@@ -18,7 +22,6 @@ namespace Game
             Console.ReadLine();
 
         }
-
     }
-    
+        
 }
