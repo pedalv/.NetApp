@@ -13,14 +13,20 @@
 - Xamarin Forms
 
 # Available APIs in Xamarin.iOS
- - HomeKit, HelthKit, CoreGraphics, UIKit, MapKit
- - System, System.Xml, System.IO, System.Net, System.Linq
- 
- 
+- HomeKit, HelthKit, CoreGraphics, UIKit, MapKit
+- System, System.Xml, System.IO, System.Net, System.Linq
 
+# How Xamarin Workks om iOS 
+![How Xamarin Workks om iOS](https://github.com/pedalv/.NetApp/blob/master/Xamarin/Xamarin-on-iOS.png)
 
+# IDEs
+- [Visual Studio for Mac is replacing Xamarin Studio](https://developer.xamarin.com/releases/studio/xamarin.studio_6.3/xamarin.studio_6.3/)
+- [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
+- [Xamation Studio](https://www.macupdate.com/app/mac/33155/xamarin-studio)
+- [Visual Studio Tools for Xamarin](https://visualstudio.microsoft.com/xamarin/)
+- [Installing Xamarin in Visual Studio 2017](https://docs.microsoft.com/en-us/xamarin/cross-platform/get-started/installation/windows)
 
-# How run on devices
+# How run Xamarin on devices
 - [Set Up Device for Development](https://docs.microsoft.com/nb-no/xamarin/android/get-started/installation/set-up-device-for-development)
 - [Run Android virtual devices](https://www.genymotion.com/)
 - [Managing Virtual Devices with the Android Device Manager](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/device-manager?tabs=windows&pivots=windows)
@@ -38,26 +44,15 @@
 - [Introduction to Xamarin.Forms for Android Developers (Part 1) ](https://dzone.com/articles/introduction-to-xamarinforms-for-android-developer)
 - [Xamarin Tutorial](https://www.tutorialspoint.com/xamarin/)
 
-# Build with Xamarin an APP
+# What need from Xamarin to build an APP
 - Storyboards & Views
 - Table Views
 - Integration with the OS
 - Store Deployment
 
+# Ray's Hot Dogs
 
 
-
-# Assumptions
-- C#
-- iOS | Android | Windows Phone
-
-# Need
-- Xamarin
-- Mac
-- Visual Studio Xamarin
-
-
-Ray's Hot Dogs
 
 
 
