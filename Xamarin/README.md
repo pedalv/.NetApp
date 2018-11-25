@@ -19,6 +19,9 @@
 # How Xamarin Workks om iOS 
 ![How Xamarin Workks om iOS](https://github.com/pedalv/.NetApp/blob/master/Xamarin/Xamarin-on-iOS.png)
 
+# Code Sharing
+![Code Sharing](https://github.com/pedalv/.NetApp/blob/master/Xamarin/Code-Sharing.png)
+
 # IDEs
 - [Visual Studio for Mac is replacing Xamarin Studio](https://developer.xamarin.com/releases/studio/xamarin.studio_6.3/xamarin.studio_6.3/)
 - [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
