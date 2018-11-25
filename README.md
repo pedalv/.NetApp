@@ -1,7 +1,12 @@
 # .NetApp
-.Net/C# projects to build competence.
+.Net/C# projects to build competance.
 
 # [Microsoft Docs](https://docs.microsoft.com/en-gb/)
+
+# Project 5: Xamarin
+- Introduction to Xamarin
+- Xamarin project is located on [https://github.com/pedalv/.NetApp/tree/master/Xamarin](https://github.com/pedalv/.NetApp/tree/master/Xamarin)
+
 
 # Project 4: dotnet
 - Introduction about .NET SDKs for Visual Studio
