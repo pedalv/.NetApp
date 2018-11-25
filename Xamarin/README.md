@@ -22,7 +22,7 @@
 # IDEs
 - [Visual Studio for Mac is replacing Xamarin Studio](https://developer.xamarin.com/releases/studio/xamarin.studio_6.3/xamarin.studio_6.3/)
 - [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
-- [Xamation Studio](https://www.macupdate.com/app/mac/33155/xamarin-studio)
+- [Xamarin Studio](https://www.macupdate.com/app/mac/33155/xamarin-studio)
 - [Visual Studio Tools for Xamarin](https://visualstudio.microsoft.com/xamarin/)
 - [Installing Xamarin in Visual Studio 2017](https://docs.microsoft.com/en-us/xamarin/cross-platform/get-started/installation/windows)
 
