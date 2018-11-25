@@ -32,6 +32,7 @@
 - [Managing Virtual Devices with the Android Device Manager](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/device-manager?tabs=windows&pivots=windows)
 - [Device provisioning for Xamarin.iOS](https://docs.microsoft.com/en-us/xamarin/ios/get-started/installation/device-provisioning/)
 - [Automatic Provisioning for Xamarin.iOS](https://docs.microsoft.com/en-us/xamarin/ios/get-started/installation/device-provisioning/automatic-provisioning?tabs=windows)
+- To run from VS on Windows is need run from MAC Xamarin.iOS Build Host
 - [https://codewithchris.com/xcode-for-windows/](https://codewithchris.com/xcode-for-windows/)
 - [Setup and Installation](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/index)
 
